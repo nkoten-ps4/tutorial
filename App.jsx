@@ -10,7 +10,9 @@ const Home = () => (
     <Link to="/about" className="text-sky-400 underline mt-4 inline-block">
       Ir para About
     </Link>
-    <Button label="NK-Botão Funcionando!" />
+    <div className="flex flex-col">
+      <p><a href="https://dubsgamer.com/resident-evil-outbreak-2-pt-br-iso-ps2/" target="blank">dubsgamer</a></p>
+    </div>
   </div>
 );
 
