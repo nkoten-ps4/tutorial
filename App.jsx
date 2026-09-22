@@ -4,6 +4,10 @@ import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import { Button } from './components/Button.jsx';
 import TutorialREO2fpkg from './pages/tutorial-reo2fpkg.jsx';
 
+const games = [
+  {n: "marvel-vs-capcom-2-iso-ps2", u: "https://dubsgamer.com/marvel-vs-capcom-2-iso-ps2/"},
+];
+
 const Home = () => (
   <div className="p-8">
     <h2 className="text-2xl font-bold text-amber-500">Home Page</h2>
@@ -11,7 +15,7 @@ const Home = () => (
       Ir para About
     </Link>
     <div className="flex flex-col">
-      <p><a href="https://dubsgamer.com/resident-evil-outbreak-2-pt-br-iso-ps2/" target="blank">dubsgamer</a></p>
+      <p><a href="https://dubsgamer.com/resident-evil-outbreak-2-pt-br-iso-ps2/" target="blank">Resident Evil Outbreak File 2 PT-BR ISO PS2</a></p>
     </div>
   </div>
 );
